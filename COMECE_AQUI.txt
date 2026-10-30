@@ -1,0 +1,27 @@
+CONVITE DO LORENZO
+
+1. Para ver o visual agora, abra ABRIR_PREVIA.html com dois cliques.
+   Ela é uma DEMONSTRAÇÃO: as escolhas ficam somente no navegador.
+
+2. Para editar nome, data, horário e local:
+   src/config/event.js
+
+3. Para colocar online com reservas compartilhadas:
+   abra README.md e siga as etapas Supabase + Vercel.
+   O SQL completo está em supabase/schema.sql.
+
+4. Para executar o projeto Vue 3:
+   instale o Node.js (22.12 ou superior), abra o terminal nesta pasta e execute:
+   npm install
+   npm run dev
+
+Nenhum convidado precisa fazer login ou informar seu nome.
+Somente você precisa de conta nos provedores para administrar e publicar.
+
+Depois de editar o projeto, gere novamente a prévia com:
+   npm run preview:file
+
+Para publicar de verdade, configure o .env e use:
+   npm run build
+
+O projeto ainda não está hospedado nem conectado a um banco real.
